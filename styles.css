@@ -8,11 +8,12 @@
     color: #fff;
     background-color: #5995DA;
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .menu {
-    border: 1px solid #fff; /*For debugging*/
+    border: 1px solid red; /*For debugging*/
     width: 900px;
     display: flex;
-
 }
