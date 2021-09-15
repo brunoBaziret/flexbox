@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 .menu-container {
+    border: 1px solid white; /*For debugging*/
     color: #fff;
     background-color: #5995DA;
     margin: 20px 0;
@@ -16,15 +18,31 @@
     border: 1px solid red; /*For debugging*/
     width: 900px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .links {
-    border: 1px solid #fff;  /* For debugging */
+    border: 1px solid rgb(15, 226, 26);  /* For debugging */
     display: flex;
     justify-content: flex-end;
 }
   
   .login {
     margin-left: 20px;
+}
+
+.header-container {
+    color: #5995DA;
+    border: 5px solid red;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
