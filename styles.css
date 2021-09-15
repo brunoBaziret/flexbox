@@ -56,7 +56,7 @@
     width: 900px;
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
@@ -71,6 +71,28 @@
     order: 1;
  }
   
-  .last-item {
+.last-item {
     order: -1;
- }
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-three {
+    flex: 2;
+  }
