@@ -31,6 +31,10 @@
     margin-left: 20px;
 }
 
+.signup {
+    margin-left: auto;
+  }
+
 .header-container {
     color: #5995DA;
     border: 5px solid red;
